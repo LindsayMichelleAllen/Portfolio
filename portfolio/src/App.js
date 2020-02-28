@@ -24,7 +24,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      mode: AppMode.Contact
+      mode: AppMode.Projects
     }
   }
 

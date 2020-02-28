@@ -1,0 +1,28 @@
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.project {
+    width: 60%;
+    margin: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.full-wrap {
+    background-color: antiquewhite;
+    height: 100%;
+}
