@@ -1,11 +1,10 @@
 import React from 'react';
 import AppMode from '../AppModes';
-import '../style/Menubar.css';
-import Navbar from 'react-bootstrap/Navbar';
+import '../style/Navbar.css';
 
 
 
-class Menubar extends React.Component {
+class Navbar extends React.Component {
 
     render() {
         return(
@@ -20,4 +19,4 @@ class Menubar extends React.Component {
 
 }
 
-export default Menubar;
+export default Navbar;

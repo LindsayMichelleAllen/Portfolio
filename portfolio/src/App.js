@@ -1,5 +1,5 @@
 import React from 'react';
-import Menubar from './components/Menubar';
+import Navbar from './components/Navbar';
 import About from './components/AboutMe';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -36,7 +36,7 @@ class App extends React.Component {
     const ModePage = modeRegister[this.state.mode];
     return (
       <div>
-        <Menubar 
+        <Navbar 
           mode={this.state.mode}
           changeMode={this.changeMode}
         />
