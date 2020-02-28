@@ -1,0 +1,19 @@
+input {
+    float: right;
+}
+
+label {
+    font-weight: bold;
+}
+
+.identity {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 30%;
+    margin: auto;
+}
+
+.full-wrap {
+    background-color: antiquewhite;
+    height: 100%;
+}
