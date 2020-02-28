@@ -1,5 +1,5 @@
 import React from 'react';
-import SideBar from './components/Sidebar';
+import Navbar from './components/Navbar';
 import About from './components/AboutMe';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
@@ -14,7 +14,7 @@ modeHeader[AppMode.Experience] = "Experience";
 modeHeader[AppMode.Contact] = "Contact Me";
 
 const modeRegister = {};
-modeRegister[AppMode.About] = About;
+modeRegister[AppMode.AboutMe] = About;
 modeRegister[AppMode.Projects] = Projects;
 modeRegister[AppMode.Experience] = Experience;
 modeRegister[AppMode.Contact] = Contact;
@@ -24,16 +24,22 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      mode: AppMode.AboutMe,
-      sideBarOpen: false
+      mode: AppMode.AboutMe
     }
+  }
+
+  changeMode = (newMode) => {
+      this.setState({mode: newMode});
   }
 
   render() {
     const ModePage = modeRegister[this.state.mode];
     return (
       <div>
-        <SideBar/>
+        <Navbar 
+          mode={this.state.mode}
+          changeMode={this.changeMode}
+        />
         <ModePage/>
       </div>
     );
