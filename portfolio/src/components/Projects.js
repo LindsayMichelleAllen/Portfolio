@@ -66,7 +66,7 @@ class Projects extends React.Component {
                     <p></p>
                     <div className="project">
                         <div className="title">Portfolio (Windows)</div>
-                        <div className="tools">React | Node.js</div>
+                        <div className="tools">React | Node.js | MongoDB</div>
                         <div className="summary">The source code for this single page web application can be found in the following 
                                                  link</div>
                         <br></br>
