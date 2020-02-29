@@ -8,7 +8,7 @@ var nodemailer = require('nodemailer');
 var db;
 
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 5000;
 
 async function startup() {
   await mongo.connect(DB_url, { useUnifiedTopology: true }, function (err, client) {
