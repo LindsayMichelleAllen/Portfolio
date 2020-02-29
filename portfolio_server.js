@@ -1,6 +1,6 @@
 const express = require("express");
-const mongo = require("mongodb").MongoClient;
-const DB_url = 'mongodb://localhost:27017/messages';
+//const mongo = require("mongodb").MongoClient;
+//const DB_url = 'mongodb://localhost:27017/messages';
 const path = require("path");
 const bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
@@ -10,6 +10,7 @@ var db;
 const app = express();
 const port = process.env.PORT || 5000;
 
+/*
 async function startup() {
   await mongo.connect(DB_url, { useUnifiedTopology: true }, function (err, client) {
     if (err) throw err
@@ -19,7 +20,7 @@ async function startup() {
 };
 
 startup();
-
+*/
 // Serve static files built by React
 app.use(express.static(path.join(__dirname, "portfolio/build")));
 
