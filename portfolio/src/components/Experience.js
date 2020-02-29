@@ -5,12 +5,12 @@ class Experience extends React.Component {
 
     render() {
         return(
-            <div className="full-wrap parent">
-                <div className="entry" align="center">
+            <div className="full-wrap">
+                <div className="first-entry" align="center">
                         <div className="jobtitle">Software Engineering Intern - Schweitzer Engineering Laboratories</div>
                         <div className="timeline">01/01/2018 - Present | 2 Years</div>
                         <div className="duties">
-                            <ul>
+                            <ul className="unstyled">
                                 <li>
                                     Implemented a python module to automate the attenuation levels applied over an RF 
                                     connection. This was integrated into the R&D department’s testing framework.
@@ -24,17 +24,17 @@ class Experience extends React.Component {
                             </ul>
                         </div>
                         <label>Letters of Recommendation: </label>
-                        <div className="reference"><a href="">Kenji Yamamoto - Engineering Manager</a></div>
-                        <div className="reference"><a href="">Rohan Schroff - Supervisor / Mentor</a></div>
+                        <div className="reference"  target="_blank"><a href="">Kenji Yamamoto - Engineering Manager</a></div>
+                        <div className="reference"  target="_blank"><a href="">Rohan Schroff - Supervisor / Mentor</a></div>
                         <br></br><br></br>
                         <div className="line"></div>
                     </div>
                     <p></p>
-                    <div className="entry" align="center">
+                    <div className="pad-entry" align="center">
                         <div className="jobtitle">Research Assistant - Integrative Physiology & Neuroscience – WSU</div>
                         <div className="timeline">02/2017 – 08/2017 | 6 Months</div>
                         <div className="duties">
-                            <ul>
+                            <ul className="unstyled">
                                 <li>
                                     Studied the effects the Solitary Nucleus has on appetite.
                                 </li>
@@ -45,11 +45,59 @@ class Experience extends React.Component {
                                 </li>
                             </ul>
                         </div>
+                        <br></br><br></br>
+                        <div className="line"></div>
+                    </div>
+                    <div className="pad-entry" align="center">
+                        <div className="jobtitle">Completed Courses:</div>
+                        <div className="classes">
+                            <ul className="class-list">
+                                <li>
+                                    Web Development <span className="lang"> ( JavaScript, HTML, CSS, React, Node.js, MongoDB )</span>
+                                </li>
+                                <li>
+                                    Software Engineering Principles <span className="lang"> ( HTML, CSS, JavaScript, jQuery )</span>
+                                </li>
+                                <li>
+                                    Database Systems <span className="lang"> ( SQL, C# )</span>
+                                </li>
+                                <li>
+                                    Human-Computer Interaction | Proper UI Design
+                                </li>
+                                <li>
+                                    Data Mining <span className="lang"> ( Python )</span>
+                                </li>
+                                <li>
+                                    Software Design & Architecture <span className="lang"> ( C# )</span>
+                                </li>
+                                <li>
+                                    Object-Oriented Software Principles <span className="lang"> ( C# )</span>
+                                </li>
+                                <li>
+                                    Programming Language Design <span className="lang"> ( ML, Python, Java )</span>
+                                </li>
+                                <li>
+                                    Advanced Data Structures <span className="lang"> ( C, C++ )</span>
+                                </li>
+                                <li>
+                                    Algorithm Design & Analysis <span className="lang"> ( Python )</span>
+                                </li>
+                                <li>
+                                    Automata and Formal Languages <span className="lang"> ( MIPS )</span>
+                                </li>
+                                <li>
+                                    Systems Programming <span className="lang"> ( C )</span>
+                                </li>
+                                <li>
+                                    Operating Systems & Computer Architecture <span className="lang"> ( C )</span>
+                                </li>
+                            </ul>
+                            <a href="get from server" target="_blank">View Full Transcript</a>
+                        </div>
                     </div>
                 </div>
         );
     }
-
 }
 
 export default Experience;

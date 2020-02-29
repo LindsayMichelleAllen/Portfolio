@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import About from './components/AboutMe';
+import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
@@ -24,7 +24,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      mode: AppMode.Experience
+      mode: AppMode.AboutMe
     }
   }
 

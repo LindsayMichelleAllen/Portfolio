@@ -36,41 +36,41 @@ class Projects extends React.Component {
                                                  user accounts. The information is then stored in the database managed by Postgres, and is
                                                  queried using SQL.</div>
                         <br></br>
-                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DatabaseManagement">Github Repo</a></div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DatabaseManagement"  target="_blank">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
                     <div className="project">
-                        <div className="title">Data Mining Term Project - Predicting Game Sales Using A Recommender System</div>
+                        <div className="title">Data Mining Term Project - Predicting Game Sales Using A Recommender System (Windows)</div>
                         <div className="tools">Python</div>
                         <div className="summary">This algorithm is used to predict game sales and suggest design modifications based on 
                                                  descriptive attributes. In order to find the most commonly occuring attributes in games 
                                                  with high sales, the apriori algorithm is used to determine frequent item sets. 
                                                  More details and results can be reviewed in the project proposal found in the repo.</div>
                         <br></br>
-                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DataMining">Github Repo</a></div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DataMining"  target="_blank">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
                 <h3>Private</h3>
                <p></p>
                     <div className="project">
-                        <div className="title">The Signal</div>
+                        <div className="title">The Signal (Windows)</div>
                         <div className="tools">C# | Unity Editor</div>
                         <div className="summary">I am in the design stages of a PC-based RPG game. Current documentation 
                                                  can be found in the github link below.</div>
                         <br></br>
-                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal">Github Repo</a></div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal"  target="_blank">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
                     <div className="project">
-                        <div className="title">Portfolio</div>
+                        <div className="title">Portfolio (Windows)</div>
                         <div className="tools">React | Node.js</div>
                         <div className="summary">The source code for this single page web application can be found in the following 
                                                  link</div>
                         <br></br>
-                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/Portfolio">Github Repo</a></div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/Portfolio"  target="_blank">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
