@@ -34,7 +34,7 @@ class Contact extends React.Component {
 
     render() {
         return(
-            <div className="full-wrap">
+            <div className="full-wrap parent">
                 <form onSubmit={this.handleSubmit}>
                     <div className="identity">
                         <label>Name: </label><input name="name" type="text" onChange={this.handleChange} required></input>

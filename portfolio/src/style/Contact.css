@@ -16,3 +16,7 @@ label {
 .full-wrap {
     background-color: antiquewhite;
 }
+
+.parent {
+    height:100vh;
+}

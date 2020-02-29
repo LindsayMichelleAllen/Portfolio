@@ -20,6 +20,7 @@ class Projects extends React.Component {
                                                  on server startup and modify the database in the case of documentation changes.
                                                  The server manages the documentation by storing static links to files downloaded from 
                                                  Artifactory, and accepts post requests issued during a Jenkins build. </div>
+                        <br></br>
                         <div className="link">**unable to provide code samples due to confidentiality agreement**</div>
                         <div className="line"></div>
                     </div>
@@ -34,6 +35,7 @@ class Projects extends React.Component {
                                                  uses a parser built in Python to organize datasets of over 200,000 yelp reviews and
                                                  user accounts. The information is then stored in the database managed by Postgres, and is
                                                  queried using SQL.</div>
+                        <br></br>
                         <div className="link"><a href="https://github.com/LindsayMichelleAllen/DatabaseManagement">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
@@ -45,6 +47,7 @@ class Projects extends React.Component {
                                                  descriptive attributes. In order to find the most commonly occuring attributes in games 
                                                  with high sales, the apriori algorithm is used to determine frequent item sets. 
                                                  More details and results can be reviewed in the project proposal found in the repo.</div>
+                        <br></br>
                         <div className="link"><a href="https://github.com/LindsayMichelleAllen/DataMining">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
@@ -56,6 +59,7 @@ class Projects extends React.Component {
                         <div className="tools">C# | Unity Editor</div>
                         <div className="summary">I am in the design stages of a PC-based RPG game. Current documentation 
                                                  can be found in the github link below.</div>
+                        <br></br>
                         <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
@@ -65,7 +69,8 @@ class Projects extends React.Component {
                         <div className="tools">React | Node.js</div>
                         <div className="summary">The source code for this single page web application can be found in the following 
                                                  link</div>
-                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal">Github Repo</a></div>
+                        <br></br>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/Portfolio">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
