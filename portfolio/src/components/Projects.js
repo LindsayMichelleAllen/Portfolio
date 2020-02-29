@@ -24,24 +24,6 @@ class Projects extends React.Component {
                         <div className="line"></div>
                     </div>
                     <p></p>
-               <h3>Private</h3>
-               <p></p>
-                    <div className="project">
-                        <div className="title">Title</div>
-                        <div className="tools">Languages, OS, frameworks, or libraries used</div>
-                        <div className="summary">Summary of project</div>
-                        <div className="link">link to code if it exists</div>
-                        <div className="line"></div>
-                    </div>
-                    <p></p>
-                    <div className="project">
-                        <div className="title">Title</div>
-                        <div className="tools">Languages, OS, frameworks, or libraries used</div>
-                        <div className="summary">Summary of project</div>
-                        <div className="link">link to code if it exists</div>
-                        <div className="line"></div>
-                    </div>
-                    <p></p>
                <h3>Academic</h3>
                <p></p>
                     <div className="project">
@@ -64,6 +46,26 @@ class Projects extends React.Component {
                                                  with high sales, the apriori algorithm is used to determine frequent item sets. 
                                                  More details and results can be reviewed in the project proposal found in the repo.</div>
                         <div className="link"><a href="https://github.com/LindsayMichelleAllen/DataMining">Github Repo</a></div>
+                        <div className="line"></div>
+                    </div>
+                    <p></p>
+                <h3>Private</h3>
+               <p></p>
+                    <div className="project">
+                        <div className="title">The Signal</div>
+                        <div className="tools">C# | Unity Editor</div>
+                        <div className="summary">I am in the design stages of a PC-based RPG game. Current documentation 
+                                                 can be found in the github link below.</div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal">Github Repo</a></div>
+                        <div className="line"></div>
+                    </div>
+                    <p></p>
+                    <div className="project">
+                        <div className="title">Portfolio</div>
+                        <div className="tools">React | Node.js</div>
+                        <div className="summary">The source code for this single page web application can be found in the following 
+                                                 link</div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/TheSignal">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
