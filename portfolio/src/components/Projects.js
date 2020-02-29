@@ -10,10 +10,17 @@ class Projects extends React.Component {
                <h3>Professional</h3>
                <p></p>
                     <div className="project">
-                        <div className="title">Title</div>
-                        <div className="tools">Languages, OS, frameworks, or libraries used</div>
-                        <div className="summary">Summary of project</div>
-                        <div className="link">**unable to provide code samples due to confidentiality agreement</div>
+                        <div className="title">Documentation Hosting Web Application (Linux)</div>
+                        <div className="tools">MongoDB | Express.js | Angular 8 | Node.js</div>
+                        <div className="summary">This M.E.A.N. application displays documentation created
+                                                 during the development process. It is used to aid in communication during 
+                                                 product integration amongst an infrastructure team in the Research & Development 
+                                                 department. The frontend was created using Angular 8, and the server was developed 
+                                                 with a combination of Express.js and Node.js. MongoDB was used to create the database 
+                                                 on server startup and modify the database in the case of documentation changes.
+                                                 The server manages the documentation by storing static links to files downloaded from 
+                                                 Artifactory, and accepts post requests issued during a Jenkins build. </div>
+                        <div className="link">**unable to provide code samples due to confidentiality agreement**</div>
                         <div className="line"></div>
                     </div>
                     <p></p>
@@ -38,18 +45,25 @@ class Projects extends React.Component {
                <h3>Academic</h3>
                <p></p>
                     <div className="project">
-                        <div className="title">Title</div>
-                        <div className="tools">Languages, OS, frameworks, or libraries used</div>
-                        <div className="summary">Summary of project</div>
-                        <div className="link">link to code if it exists</div>
+                        <div className="title">Database Management Term Project - Yelp Challenge (Windows)</div>
+                        <div className="tools">C# | SQL | Postgres | Python</div>
+                        <div className="summary">This project's UI is developed using WPF and C#, and it allows users to perform 
+                                                 different types of queries on the dataset provided by Yelp. The standalone application 
+                                                 uses a parser built in Python to organize datasets of over 200,000 yelp reviews and
+                                                 user accounts. The information is then stored in the database managed by Postgres, and is
+                                                 queried using SQL.</div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DatabaseManagement">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
                     <div className="project">
-                        <div className="title">Title</div>
-                        <div className="tools">Languages, OS, frameworks, or libraries used</div>
-                        <div className="summary">Summary of project</div>
-                        <div className="link">link to code if it exists</div>
+                        <div className="title">Data Mining Term Project - Predicting Game Sales Using A Recommender System</div>
+                        <div className="tools">Python</div>
+                        <div className="summary">This algorithm is used to predict game sales and suggest design modifications based on 
+                                                 descriptive attributes. In order to find the most commonly occuring attributes in games 
+                                                 with high sales, the apriori algorithm is used to determine frequent item sets. 
+                                                 More details and results can be reviewed in the project proposal found in the repo.</div>
+                        <div className="link"><a href="https://github.com/LindsayMichelleAllen/DataMining">Github Repo</a></div>
                         <div className="line"></div>
                     </div>
                     <p></p>
