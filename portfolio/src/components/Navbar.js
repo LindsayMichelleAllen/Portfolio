@@ -9,10 +9,10 @@ class Navbar extends React.Component {
     render() {
         return(
             <div className="Navbar">
-                <a onClick={() => this.props.changeMode(AppMode.AboutMe)}>About Me</a>
-                <a onClick={() => this.props.changeMode(AppMode.Experience)}>Experience</a>
-                <a onClick={() => this.props.changeMode(AppMode.Projects)}>Projects</a>
-                <a onClick={() => this.props.changeMode(AppMode.Contact)}>Contact Me</a>
+                <a className='icon' onClick={() => this.props.changeMode(AppMode.AboutMe)}>About Me</a>
+                <a className='icon' onClick={() => this.props.changeMode(AppMode.Experience)}>Experience</a>
+                <a className='icon' onClick={() => this.props.changeMode(AppMode.Projects)}>Projects</a>
+                <a className='icon' onClick={() => this.props.changeMode(AppMode.Contact)}>Contact Me</a>
             </div>
         );
     }
