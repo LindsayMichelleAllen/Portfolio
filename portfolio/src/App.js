@@ -24,7 +24,7 @@ class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      mode: AppMode.Experience
+      mode: AppMode.AboutMe
     }
   }
 

@@ -1,0 +1,14 @@
+.body-text {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    font-size: larger;
+    font-weight: 700;
+    background-color: antiquewhite;
+    height:100vh;
+}
+
+img {
+    margin: auto;
+}
