@@ -43,12 +43,12 @@ class Experience extends React.Component {
                                     I performed on one of the subjects, <br></br>where I implanted a cannula into the 4th ventricle to 
                                     be used for direct injections.
                                 </li>
+                                <br></br><br></br>
+                        <div style={{width: "60%"}} className="line"></div>
                             </ul>
                         </div>
                     </div>
                     <div className="pad-entry" align="center">
-                        <br></br><br></br>
-                        <div className="line"></div>
                         <div className="jobtitle">Completed Courses:</div>
                         <div className="classes">
                             <ul className="class-list">
