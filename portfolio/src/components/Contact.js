@@ -35,7 +35,7 @@ class Contact extends React.Component {
                 alert("Server unable to process message. If problem persists, please email me directly at lindsay.allen.michelle@gmail.com.");
             }
         });
-        request.open('POST', 'http://localhost:5000/api/sendMessage', true);
+        request.open('POST', 'http://localhost:' + this.props.port + '/api/sendMessage', true);
         request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
         request.send(JSON.stringify(newMessage));
         e.preventDefault(); // don't do refresh
