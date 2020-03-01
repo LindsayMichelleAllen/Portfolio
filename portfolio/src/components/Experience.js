@@ -44,9 +44,10 @@ class Experience extends React.Component {
                                     be used for direct injections.
                                 </li>
                             </ul>
+                            <br></br><br></br>
+                            <div className="line"></div>
                         </div>
-                        <br></br><br></br>
-                        <div className="line"></div>
+                        
                     </div>
                     <div className="pad-entry" align="center">
                         <div className="jobtitle">Completed Courses:</div>
