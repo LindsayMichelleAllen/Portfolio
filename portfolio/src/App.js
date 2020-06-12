@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
 import AppMode from './AppModes';
 import './App.css';
 
@@ -11,13 +11,13 @@ const modeHeader = {};
 modeHeader[AppMode.About] = "About Me";
 modeHeader[AppMode.Projects] = "Projects";
 modeHeader[AppMode.Experience] = "Experience";
-modeHeader[AppMode.Contact] = "Contact Me";
+//modeHeader[AppMode.Contact] = "Contact Me";
 
 const modeRegister = {};
 modeRegister[AppMode.AboutMe] = About;
 modeRegister[AppMode.Projects] = Projects;
 modeRegister[AppMode.Experience] = Experience;
-modeRegister[AppMode.Contact] = Contact;
+//modeRegister[AppMode.Contact] = Contact;
 
 class App extends React.Component {
 
