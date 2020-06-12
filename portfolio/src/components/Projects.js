@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/Projects.css';
+import Publication from '../attachments/IEEE_CoG_Submission.pdf';
 
 class Projects extends React.Component {
 
@@ -7,6 +8,24 @@ class Projects extends React.Component {
         return(
             <div className="full-wrap">
                 <div style={{paddingTop: "20px"}}></div>
+                <h3>Publications</h3>
+                <p></p>
+                    <div className="project">
+                        <div className="reference">
+                            <a href={Publication} target="_blank" >An Upper Bound on the State-Space Complexity of Brandubh</a>
+                            <p></p>
+                            <div className="summary">The purpose of this paper is to study the combinatorial 
+                            state-space complexity of an Irish 
+                            variation of Taﬂ called Brandubh. Brandubh was chosen not only because of its asymmetric goals 
+                            for the two players, but its overall complexity is well below that of chess, which 
+                            should make it tractable for strong solving. Brandubh’s rules and characteristics are 
+                            used to gain an understanding of the overall state-space complexity of the game. 
+                            State-spaces will consider valid piece positions, a generalized rule set, and accepted ﬁnal 
+                            state conditions. From these states the upper bound for the complexity of strongly solving 
+                            Brandubh is derived.</div>
+                        </div>
+                        <div className="line"></div>
+                    </div>
                <h3>Professional</h3>
                <p></p>
                     <div className="project">
