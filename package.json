@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node portfolio_server.js",
+    "start": "node server.js",
     "heroku-postbuild": "cd portfolio && npm install && npm run build"
   },
   "repository": {
