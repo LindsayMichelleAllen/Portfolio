@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "web-based resume",
-  "main": "portfolio_server.js",
+  "main": "server.js",
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
