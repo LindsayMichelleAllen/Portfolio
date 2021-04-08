@@ -1,9 +1,6 @@
 ### Set Up Development Environment
 
-Issue `npm start`  
-
-Open browser and nagivate to `localhost:<port>` (port displayed in console)
-
+Issue `npm start` (in root of react project `/portfolio`)
 
 ## Important
 Until the frontend build step is incorporated into CI, the developer will need to manually run  

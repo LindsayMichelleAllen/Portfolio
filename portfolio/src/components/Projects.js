@@ -75,7 +75,7 @@ class Projects extends React.Component {
                <p></p>
                     <div className="project">
                         <div className="title">The Signal (Windows)</div>
-                        <div className="tools">C# | Unity Editor</div>
+                        <div className="tools">C++ | Unreal Engine</div>
                         <div className="summary">I am in the design stages of a PC-based RPG game. Current documentation 
                                                  can be found in the github link below.</div>
                         <br></br>
