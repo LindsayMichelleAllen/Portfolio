@@ -20,9 +20,6 @@ class Experience extends React.Component {
                                 </li>
                             </ul>
                         </div>
-                        <label>Letters of Recommendation: </label>
-                        <div className="reference"><a href={KenjiLOR} target="_blank">Kenji Yamamoto - Engineering Manager</a></div>
-                        <div className="reference"><a href={RohanLOR} target="_blank">Rohan Schroff - Supervisor / Mentor</a></div>
                         <br></br><br></br>
                         <div className="line"></div>
                 </div>
