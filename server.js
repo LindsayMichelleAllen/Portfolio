@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 console.log(port)
-/*
+
 async function startup() {
   await mongo.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/messages', { useUnifiedTopology: true }, function (err, client) {
     if (err) throw err
@@ -20,7 +20,7 @@ async function startup() {
 };
 
 startup();
-*/
+
 // Serve static files built by React
 app.use(express.static(path.join(__dirname, "portfolio/build")));
 
