@@ -2,26 +2,101 @@ import React from 'react';
 import '../style/Experience.css';
 import KenjiLOR from '../attachments/KenjiLOR.pdf';
 import RohanLOR from '../attachments/RohanLOR.pdf';
-import Transcript from '../attachments/Unofficial_Transcript.pdf';
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import FormLabel from '@material-ui/core/FormLabel';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 
-class Experience extends React.Component {
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+      backgroundColor: '#FAEBD7',
+    },
+    skill: {
+      padding: theme.spacing(2),
+      height: 250,
+      width: 400,
+      backgroundColor: '#e5e5e5',
+    },
+    header: {
+      textDecoration: 'underline',
+      textAlign: 'center',
+      paddingTop: 100,
+    },
+    timeline: {
+        padding: 2,
+    },
+    skillList: {
+        paddingLeft: 90,
+        textAlign: 'left',
+    }
+  }));
 
-    render() {
+export default function Experience() {
+    const classes = useStyles();
+   
         return(
-            <div className="full-wrap">
+            <div className={classes.root}>
+                <div className="pad-entry" align="center">
+                   <Grid container spacing={0} justify="center" alignItems="flex-start">
+                        <Grid item xs style={{paddingLeft: 300}}>
+                            <Paper className={classes.skill}>
+                                <div className="jobtitle">Programming Languages:<p></p></div><p></p>
+                                <div className="classes">
+                                    <ul className={classes.skillList}>
+                                        <li>C#</li>
+                                        <li>C/C++</li>
+                                        <li>Python</li>
+                                        <li>JavaScript/Typescript</li>
+                                        <li>HTML/CSS</li>
+                                        <li>SQL</li>                                
+                                    </ul>
+                                </div>
+                            </Paper>
+                        </Grid>
+                        <Grid item xs style={{paddingRight:300}}>
+                            <Paper  className={classes.skill}>
+                                <div className="jobtitle">Frameworks/Platforms:<p></p></div><p></p>
+                                <div className="classes">
+                                    <ul className={classes.skillList}>
+                                        <li>Angular</li>
+                                        <li>React</li>
+                                        <li>Node.js/Express</li>
+                                        <li>MongoDB/Mongoose</li>             
+                                    </ul>
+                                </div>
+                            </Paper>
+                        </Grid>
+                    </Grid>
+                </div>
+                <h2 className={classes.header}>Work Experience</h2>
                 <div className="first-entry" align="center">
+                    <div className="jobtitle">Associate Fullstack Engineer - Schweitzer Engineering Laboratories</div>
+                            <div className={classes.timeline}>01/01/2021 - Present | 4 Months</div>
+                            <div className="duties">
+                                <ul className="unstyled">
+                                    <li>
+                                    Our team is responsible for performing maintenance and feature enhancements for an 
+                                    in-house requirements management tool using React, Golang, GraphQL, and PostgreSQL.
+                                    </li>
+                                </ul>
+                            </div>
+                            <br></br><br></br>
+                            <div className="line"></div>
+                </div>
+                <div className="pad-entry" align="center">
                         <div className="jobtitle">Software Engineering Intern - Schweitzer Engineering Laboratories</div>
-                        <div className="timeline">01/01/2018 - Present | 2 Years 6 Months</div>
+                        <div className={classes.timeline} style={{padding: 6}}>01/01/2018 - 12/31/2020 | 3 Years</div>
                         <div className="duties">
                             <ul className="unstyled">
                                 <li>
-                                    During this internship, I’ve practiced Agile processes on multiple development teams, 
+                                    During this internship, I practiced Agile processes on multiple development teams, 
                                     while also participating in the design, production, and validation steps for product 
                                     firmware. I implemented a python module to automate attenuation levels applied over an 
-                                    RF connection, which is currently being integrated into the R&D department’s testing 
+                                    RF connection, which was eventually integrated into the R&D department’s testing 
                                     framework. I also developed a M.E.A.N stack web application to display documentation 
-                                    generated by a Jenkins build and stored in Artifactory to be used throughout their 
-                                    infrastructure team. 
+                                    generated by a Jenkins build and stored in Artifactory to be used accross multiple offices. 
                                 </li>
                             </ul>
                         </div>
@@ -31,8 +106,8 @@ class Experience extends React.Component {
                         <br></br><br></br>
                         <div className="line"></div>
                     </div>
-                    <p></p>
-                    <div className="pad-entry" align="center">
+                <p></p>
+                <div className="pad-entry" align="center">
                         <div className="jobtitle">Research Assistant - Integrative Physiology & Neuroscience – WSU</div>
                         <div className="timeline">02/2017 – 08/2017 | 6 Months</div>
                         <div className="duties">
@@ -46,35 +121,11 @@ class Experience extends React.Component {
                                     be used for direct injections.
                                 </li>
                                 <br></br><br></br>
-                        <div style={{width: "60%"}} className="line"></div>
+                                <div style={{width: "60%"}} className="line"></div>
                             </ul>
                         </div>
-                    </div>
-                    <div className="pad-entry" align="center">
-                        <div className="jobtitle">Programming Languages:<p></p></div><p></p>
-                        <div className="classes">
-                            <ul className="class-list" style={{paddingLeft: '15%'}}>
-                                <li>C#</li>
-                                <li>C/C++</li>
-                                <li>Python</li>
-                                <li>JavaScript/Typescript</li>
-                                <li>HTML/CSS</li>
-                                <li>SQL</li>                                
-                            </ul>
-                        </div>
-                        <div className="jobtitle">Frameworks/Platforms:<p></p></div><p></p>
-                        <div className="classes">
-                            <ul className="class-list" style={{paddingLeft: '15%'}}>
-                                <li>Angular</li>
-                                <li>React</li>
-                                <li>Node.js/Express</li>
-                                <li>MongoDB/Mongoose</li>             
-                            </ul>
-                        </div>
-                    </div>
                 </div>
+            </div>
         );
-    }
-}
 
-export default Experience;
+}
