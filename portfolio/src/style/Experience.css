@@ -40,9 +40,3 @@
     font-weight: 500;
     float: right;
 }
-
-.skill-block {
-    display: flexbox;
-    width: 450px;
-    height: 250px;
-}

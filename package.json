@@ -4,11 +4,9 @@
   "description": "web-based resume",
   "main": "server.js",
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "material-ui": "^0.20.2",
     "mongodb": "^3.5.4",
     "nodemailer": "^6.4.3",
     "react-scripts": "^4.0.3"
